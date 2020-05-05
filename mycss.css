@@ -1,0 +1,97 @@
+
+/* CSS for navbar */
+.navbar{
+   background-color: black;
+}
+.navbar-brand{
+    font-size: 26px;
+    color: white;
+    padding: 2px 2px 2px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand span{
+    text-transform: uppercase;
+}
+.navbar-nav{
+    margin-right: 7%;
+}
+.nav-item{
+    padding: 5px;
+    font-size: 16px;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+/* CSS for OUR MENU */
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+h2:hover{
+    cursor: pointer;
+}
+/* CSS for menu title */
+h4{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* css for menu-content */
+.menu-text{
+    background-color: #506975;
+    width: 99%;
+    margin: auto;
+    border: 1px solid black;
+}
+.menu-cake{
+    background-color: #534c4c;
+}
+.menu-fish{
+    background-color: #166666;
+    margin-bottom: 3%;
+}
+/* CSS for paragraphs */
+.menu-content{
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Media Query for medium secreen */
+@media (max-width: 767px){
+    /* navbar */
+    .nav-item{
+        text-align: center;
+        border-bottom: 1px solid gray;
+    }
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    /* last nav-link */
+    .fish{
+        border-bottom: none;
+    }
+    .navbar-nav{
+       
+        margin-right: 0;
+    }
+    /* menu-content */
+    .menu-text{
+        width: 80%;
+    }
+}
+/* Media Query for small secreen */
+@media (max-width: 767px){
+ h2{
+     font-size: 20px;
+ }
+}
